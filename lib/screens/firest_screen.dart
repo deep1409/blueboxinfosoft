@@ -84,7 +84,7 @@ class _FirstScreenState extends State<FirstScreen> {
   String? get _validateInput {
     final data = text!.value.text;
     if (data.isNotEmpty) {
-      if (int.parse(data) > 25) {
+      if (int.parse(data) >= 25) {
         return StringResources.errorGreaterThanText;
       } else if (int.parse(data) == 0) {
         return StringResources.errorZeroNumText;
