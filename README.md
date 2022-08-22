@@ -1,4 +1,4 @@
-# blueboxinfosoft
+# Small Game
 
 A new Flutter project.
 
